@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "CustomViews"
-  s.version      = "0.0.1"
+  s.version      = "1.0"
   s.summary      = "Some interesting custom views and controls"
 
   # This description is used to generate tags and improve search results.
@@ -77,7 +77,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/mick3003/CustomViewsPrv.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/mick3003/CustomViewsPrv.git", :tag => "1.0" }
   # s.source       = { :path => '.' }
 
 
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
 
   # s.source_files  = "Classes", "Classes/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
-  s.source_files = "CustomViews"
+  s.ios.vendored_frameworks = 'CustomViews.framework'
 
   # s.public_header_files = "Classes/**/*.h"
 
